@@ -22,19 +22,23 @@ set background=dark
 " Turn on status line
 set laststatus=2
 
-" QOL preferences
+" Quick tab switching
 nnoremap <C-t> :tabnext<CR>
+
+" Quick navigation across splits
 nnoremap <C-H> <C-W><C-H>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
+
+" Change splits to work Left to Right and Top to Bottom
 set splitright
 set splitbelow
 
 " Remap ctrl+n to vertically split the vim window (this was disabled in favor of <C-n> being used for NERDTreeToggle
 " nnoremap <C-n> :vsplit<CR>
 
-" NERDTree
+" NERDTree mappings
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
