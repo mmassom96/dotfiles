@@ -1,6 +1,0 @@
-===================================================
-                HELPFUL LINUX TOOLS
-===================================================
-  1. tmux - terminal multiplexer
-  2. links - minimal webpage viewer for terminal
-  3. 
